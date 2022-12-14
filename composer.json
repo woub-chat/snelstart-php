@@ -1,5 +1,5 @@
 {
-    "name":"iwd-nl/snelstart-php",
+    "name":"bfg/snelstart-php",
     "license": "GPL-3.0-or-later",
     "type": "library",
     "description": "Snelstart API toegepast in PHP",
@@ -8,6 +8,10 @@
         "snelstart"
     ],
     "authors": [
+        {
+            "name": "Bfg",
+            "email": "bfg.script@gmail.com"
+        },
         {
             "name": "IntoWebDevelopment",
             "email": "manuel@mail.iwdev.nl"
@@ -20,7 +24,7 @@
         "guzzlehttp/guzzle": "^6.3|7.*",
         "moneyphp/money": "^3.0|^4.0",
         "myclabs/php-enum": "^1.6",
-        "psr/cache": "^1.0",
+        "psr/cache": "^1|^2",
         "psr/http-message": "^1.0",
         "psr/log": "^1.0",
         "ramsey/uuid": "^3.8|^4.0"

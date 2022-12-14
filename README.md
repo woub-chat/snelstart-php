@@ -1,7 +1,7 @@
 # Snelstart B2B API
 
 PHP client library to use the Snelstart B2B API.
-[![Build Status](https://travis-ci.com/iwd-nl/snelstart-php.svg?branch=master)](https://travis-ci.com/iwd-nl/snelstart-php)
+[![Build Status](https://travis-ci.com/bfg/snelstart-php.svg?branch=master)](https://travis-ci.com/bfg/snelstart-php)
 
 __Note that this library is not created, or maintained, by Snelstart.__
 
@@ -11,7 +11,7 @@ This release will support both version 1 and version 2. Version 1 is considered 
 # Installation
 Installation is easy as 1, 2, 3 thanks to Composer.
 ```bash
-composer require iwd-nl/snelstart-php
+composer require bfg/snelstart-php
 ```
 
 # Usage
