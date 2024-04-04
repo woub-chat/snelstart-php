@@ -197,7 +197,7 @@ abstract class BaseConnection implements ConnectionInterface
         if ($this->client === null) {
             $this->client = new Client([
                 'base_uri'  =>  static::getEndpoint(),
-                'timeout'   =>  60,
+                'timeout'   =>  60*30,
             ]);
         }
 
